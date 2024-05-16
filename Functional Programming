@@ -1,1 +1,36 @@
+#include <iostream>
+#include <string>
+using namespace std;
 
+enum enGrade {pass = 1 , Fail = 2};
+
+int enterGrade(int &grade)
+{
+	cout << "Please unsert your grade:" << "\n";
+	cin >> grade;
+	return grade;
+}
+enGrade checkResult(int grade)
+{
+	if (grade >= 50)
+	
+		return enGrade::pass;
+
+	else
+		return enGrade::Fail;
+}
+
+void print(int grade)
+{
+	if (checkResult(grade) == enGrade::pass)
+		cout << "You passd";
+	else
+		cout << "You Failed";
+}
+int main()
+{
+	int grade;
+	checkResult(enterGrade(grade));
+	print(grade);
+
+}
