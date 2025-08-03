@@ -1,7 +1,6 @@
-- 👋 Hi, I’m @EsraaAshraf-pharmacist
+- 👋 Hi, I’m @EsraaAshraf
 - 👀 I’m interested in software engeneering and web programming.
 - 🌱 I’m currently in the first step in my way in learning, and start by C++, OOP and data structure.
-- 💞️ I’m looking to collaborate on ...
 - 📫 You can reach me through my email: esraa.ash13@gmail.com
 
 - ⚡ Fun fact: I am a pharmaciest.
